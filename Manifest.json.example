@@ -1,0 +1,30 @@
+{
+  "info" : {
+    "category" : ["misc"],
+    "description" : "pSeven block toolkit. Contains basic widgets & components to facilitate block GUI development.",
+    "license" : "LGPL/EPL",
+#    "checksum" : "91d660b966938e06abe84e8d0ee1e9bbe90e5dca",
+    "qooxdoo-versions" : [
+      "3.5","4.0.1"
+    ],
+    "summary" : "pSeven Toolkit Contribution",
+    "version" : "master",
+    "authors" : [
+      {
+        "name" : "DATADVANCE",
+        "email" : "support@datadvance.net"
+      }
+    ],
+    "download" : "https://github.com/herclogon/p7-toolkit/archive/master.zip",
+    "homepage" : "https://github.com/herclogon/p7-toolkit",
+    "name" : "pSeven-toolkit"
+  },
+  "provides" : {
+    "resource" : "source/resource",
+    "encoding" : "utf-8",
+    "namespace" : "qxp7",
+    "translation" : "source/translation",
+    "type" : "contribution",
+    "class" : "source/class"
+  }
+}
